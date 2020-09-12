@@ -1,0 +1,105 @@
+body{
+  background-color: #eee;
+}
+#header
+{
+  position: fixed;
+  width:100vw;
+  margin:-10px;
+  z-index:2;
+  background-color:#eee;
+  overflow: hidden;
+}
+#header-img
+{
+  position:relative;
+  width:10%;
+  top:10px;
+  left:10px;
+}
+.logo
+{
+  max-width:100%;
+  height:10vh;
+}
+#nav-bar
+{
+   position: absolute;
+  top:25px;
+  right:50px;
+  display: flex;
+  flex-direction: row;
+}
+#nav-bar a
+{
+  text-decoration:none;
+  font-weight: 600;
+}
+main
+{
+  position:absolute;
+  top:12%;
+  background-color:#eee;
+}
+#form
+{
+  position: relative;
+  left:25%;
+  width:50%;
+  top:70px;
+  text-align: center;
+}
+h3,h4
+{
+  letter-spacing:.1em;
+  text-decoration: underline;
+}
+#submit
+{
+  border:none;
+  background-color:#f1c40f;
+  padding:5px;
+  font-family: serif;
+  font-weight: bold;
+  margin:10px;
+}
+#features
+{
+position: relative;
+top:100px;
+width:50%;
+left:25%;
+}
+#video
+{
+  position:relative;
+  top:150px;
+  left:28%;
+  max-width:50%;
+}
+#price
+{
+  position: relative;
+  top:150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  margin:10px;
+}
+.b1
+{
+  width:20%;
+  height:50vh;
+  border:1px solid black;
+  border-radius: 5px;
+  overflow: scroll;
+}
+.b2
+{
+  width:20%;
+  height:50vh;
+  border:1px solid black;
+  border-radius: 5px;
+  overflow: scroll;
+}
