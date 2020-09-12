@@ -90,16 +90,14 @@ left:25%;
 .b1
 {
   width:20%;
-  height:50vh;
   border:1px solid black;
   border-radius: 5px;
-  overflow: scroll;
+  overflow: hidden;
 }
 .b2
 {
   width:20%;
-  height:50vh;
   border:1px solid black;
   border-radius: 5px;
-  overflow: scroll;
+  overflow: hidden;
 }
